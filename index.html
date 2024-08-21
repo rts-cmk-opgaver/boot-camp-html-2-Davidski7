@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML 2</title>
+    <title>CSS 2</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c8d7f3000a.js" crossorigin="anonymous"></script>
@@ -16,71 +17,100 @@
         <header>
             <nav>
                 <ul class="navList">
-                    <li class="navList_item"></li>
+                    <li class="navList_item"> <a href=""><i class="fa-solid fa-bars"></i></a></li>
                     <li class="navList_item"><a href="">MENU</a></li>
+                    <li class="navList_item"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li></li>
-                    <li><img src="img/information_logo-1200x631.png" alt=""></li>
-                    <li class="navList_item"><a href="">Log ind</a></li>
+                    <li><img src="img/information_logo-1200x631.png2.png" alt=""></li>
+                    <li class="login"><a href="">Log ind</a></li>
+                    <li class="navList_item"> <a href=""><i class="fa-solid fa-person"></i></a></li>
                     <li></li>
+                </ul>
 
 
-
-                    <ul class="navList2">
-                        <li class="navList_item2"><a href="">nyhedsbrev</a></li>
-                        <li class="navList_item2"><a href="">podcast</a></li>
-                        <li class="navList_item2"><a href="">abonnement</a></li>
-                    </ul>
+                <hr>
+                <ul class="navList2">
+                    <li class="navList_item2"><a href="">nyhedsbrev</a></li>
+                    <li class="navList_item2"><a href="">podcast</a></li>
+                    <li class="navList_item2"><a href="">abonnement</a></li>
+                </ul>
             </nav>
+            <hr>
         </header>
 
         <main>
+
+
+            <article class="box">
+                <p>h</p>
+            </article>
             <article class="annonce"></article>
             <section class="sectionStart">
                 <div class="mini_tekst">
                     <p>abonnement</p>
                     <p>læsetid 7 min</p>
                 </div>
-                <h1>Gas er et god politisk våben. Det er bare ikkePutin,der bruger det</h1>
-                <p> g g g g g g gg g g gg g g g g g gg g g </p>
+                <h1>Gas er et god politisk våben. Det er bare ikke Putin,der bruger det</h1>
+                <p class="nyhedstekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perspiciatis
+                    nihil architecto minima cumque eligendi hic dicta. Impedit itaque esse beatae voluptatibus eius eum,
+                    quia consectetur delectus consequatur cumque fuga temporibus assumenda harum perspiciatis. Iusto rem
+                    velit, maiores labore impedit laudantium, doloribus natus adipisci eaque quod fugiat, quam corporis
+                    exercitationem!
+                </p>
             </section>
-            <div>
-                <img src="img/information_logo-1200x631.png" alt="">
-                <aside> g g g gg g g g g g g g g g g g g g g g g g g gg </aside>
-                <a href="">Peter Nyggard Christensen</a>
+            <div class="billedemedtekst">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sint nulla sequi fuga cumque
+                    voluptates, libero nisi mollitia. Doloribus delectus voluptatibus modi sapiente minus eius
+                    architecto nesciunt corrupti aperiam qui officiis enim fugiat exercitationem tenetur, vel
+                    repudiandae earum dolorem eaque! Distinctio fugit quidem vero pariatur modi recusandae similique,
+                    corporis quisquam repudiandae aperiam neque sit consequatur sed soluta cum labore praesentium.
+                </p>
+                <a href="">Peter Nyggard Christensen</a> -->
+                <img src="img/1300x300.jpg" alt="">
             </div>
             <div>
-                <div>
+                <div class="komentarer">
                     <p>Udland</p>
                     <p>(ikon) 7.maj 2018</p>
                     <p>komentarer</p>
                 </div>
+                <hr>
+
+                <p class="halvtekst">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsam omnis quia, at, debitis,
+                    <span class="forsvindtekst">nam iure obcaecati quo culpa autem ex quisquam tempore alias
+                        maiores!</span>
+                    <span class="forsvindtekst_mere">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis
+                        nulla libero, illo tenetur fugiat!</span>
+                </p>
             </div>
 
-            <div>
+            <div class="tekst_knap">
                 <h2>Vores abonnenter kalder os kritiske, serløs og troværdig se om du er enige...</h2>
-                <button>klik her</button>
-                <p>Allerde abonnement? <a href="">Log in her</a></p>
+                <button class="knap">klik her</button>
+                <p class="knap_tekst">Allerde abonnement? <a href="">Log in her</a></p>
             </div>
 
             <div>
-                <p>fik du læst</p>
+                <p class="fik_du_least">fik du læst</p>
             </div>
-            <div>
-                <article>
+            <hr>
+            <div class="artikler">
+                <article class="artikel_img">
                     <img src="img/information_logo-1200x631.png" alt="">
                     <h3> g g g g g g g g g g gggg g gg g g g g g gg </h3>
                 </article>
-                <article>
+                <article class="artikel_img">
                     <img src="img/information_logo-1200x631.png" alt="">
                     <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
 
                 </article>
-                <article>
+                <article class="artikel_img">
                     <img src="img/information_logo-1200x631.png" alt="">
                     <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
 
                 </article>
-                <article>
+                <article class="artikel_img">
                     <img src="img/information_logo-1200x631.png" alt="">
                     <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
 
@@ -88,74 +118,84 @@
             </div>
 
             <div>
-                <div>
+                <div class="info_punkter">
                     <h4>Seneste nyt</h4>
                     <h4>Information.dk</h4>
                 </div>
             </div>
+            <hr>
 
-            <div>
-                <div>
-                    <article>
-                        <img src="img/information_logo-1200x631.png" alt="">
-                        <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
-
-                    </article>
-                    <article>
-                        <img src="img/information_logo-1200x631.png" alt="">
-                        <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
-
-                    </article>
-                    <article>
-                        <h3></h3>
-                        <p>g g g g g g g g g g gggg g gg g g g g g gg </p>
-
-                    </article>
-                </div>
-
-                <div>
-                    <article>
-                        <img src="img/information_logo-1200x631.png" alt="">
-                        <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
-
-                    </article>
-                    <article>
-                        <h3></h3>
-                        <p>g g g g g g g g g g gggg g gg g g g g g gg </p>
-
-                    </article>
-                    <article>
-                        <img src="img/information_logo-1200x631.png" alt="">
-                        <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
-
-                    </article>
-                </div>
-                <div>
+            <div class="big_box">
+                <div class="side_information">
                     <small>16:36</small>
-                    <h3>1</h3>
+                    <h3 class="under_tekst">1</h3>
                     <small>16:25</small>
-                    <h3>2</h3>
+                    <h3 class="under_tekst">2</h3>
                     <small>15:45</small>
-                    <h3>3</h3>
+                    <h3 class="under_tekst">3</h3>
                     <small>15:10</small>
-                    <h3>4</h3>
+                    <h3 class="under_tekst">4</h3>
                     <small>15:02</small>
-                    <h3>5</h3>
+                    <h3 class="under_tekst">5</h3>
                     <small>14:46</small>
-                    <h3>6</h3>
-                    <h3>7</h3>
+                    <h3 class="under_tekst">6</h3>
+                    <h3>Flere nyheder</h3>
                 </div>
+
+
+
+                <div class="mini_box">
+                    <article class="mini_box_element">
+                        <img src="img/information_logo-1200x631.png" alt="">
+                        <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
+
+                    </article>
+                    <article class="mini_box_element">
+                        <img src="img/information_logo-1200x631.png" alt="">
+                        <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
+
+                    </article>
+                    <article class="tekst_uden_billede">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quos.</h3>
+                        <p class="tekst_uden_billede_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque,
+                            animi?</p>
+
+                    </article>
+                </div>
+
+
+
+            </div>
+            <div class="mini_box2">
+                <article class="mini_box_element2">
+                    <img src="img/information_logo-1200x631.png" alt="">
+                    <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
+
+                </article>
+                <article class="tekst_uden_billede2">
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, quae!</h3>
+                    <p class="tekst_uden_billede_p2"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                        quo, ipsam animi dignissimos ea molestias illo consequatur corporis! Asperiores commodi quisquam
+                        eveniet nostrum fugiat quasi veniam! Accusamus neque quae rerum?</p>
+
+                </article>
+                <article class="mini_box_element2">
+                    <img src="img/information_logo-1200x631.png" alt="">
+                    <h3>g g g g g g g g g g gggg g gg g g g g g gg </h3>
+
+                </article>
             </div>
 
             <section>
 
-                <div>
+                <div class="anbefalinger">
                     <h4>Anbefalinger</h4>
                     <h4>komentarer</h4>
                 </div>
+                <hr>
                 <article>
                     <h4>anbefalet artikel</h4>
-                    <div>
+                    <div class="Komentar">
                         <p>Hnerik Holm Hansen</p>
                         <small>07.maj.2018 - 05:56 </small>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae pariatur, fugiat officia
@@ -164,18 +204,29 @@
                         <p>Anbefal Komentar</p>
                     </div>
                 </article>
+                <hr>
 
                 <article>
 
-                    <div>
+                    <div class="Komentar">
                         <p>Gert Romme </p>
                         <small>07.maj.2018 - 05:56 </small>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae pariatur, fugiat officia
                             atque voluptas ab ex cum quam voluptates, sit consequuntur officiis aut provident doloremque
                             veniam perspiciatis. Ad, placeat dolor.</p>
-                        <p>Anbefal Komentar</p>
+                        <p class="anbefalet_komentar">Anbefal Komentar</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, veritatis similique
+                            expedita esse quo laboriosam. Pariatur, laborum. Soluta ipsa obcaecati iste eaque sapiente
+                            rerum ullam sequi odit consequuntur provident, dignissimos neque dolore laudantium iusto
+                            velit ea perspiciatis magnam delectus incidunt deleniti veritatis. Accusamus ducimus numquam
+                            deleniti, minus possimus temporibus ad nulla nisi maiores! Deleniti obcaecati perspiciatis
+                            quibusdam ab dolorum numquam cum voluptate, quisquam reprehenderit necessitatibus vero
+                            laboriosam error neque nihil odit, rerum voluptas. Atque optio laudantium deserunt,
+                            repellendus assumenda aut sit nobis expedita quod dolores cum error, necessitatibus vel?
+                            Similique.</p>
                     </div>
-                    <p>Du skal være registreret for at kommentere <span class="bolt">log ind</span> eller opret bruger
+                    <p class="mini_afsnit">Du skal være registreret for at kommentere <span>log ind</span> eller
+                        <span>opret bruger</span>
                     </p>
                 </article>
 
@@ -191,69 +242,74 @@
 
 
         </main>
+
+
+
+        <footer>
+
+            <div>
+                <section class="footer_indhold">
+
+                    <Article class="footer_del_1">
+                        <h5>Information som E-avis</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt vero rem a sed
+                            iste
+                            - amet deserunt dolorum ducimus!</p>
+                        <div>
+                            <a href=""><i class="fa-solid fa-desktop"></i>Læs e-avis på din computer</a><br>
+                            <a href=""><i class="fa-brands fa-apple"></i>Downlode til apple</a><br>
+                            <a href=""><i class="fa-brands fa-android"></i>Downlode til android</a><br>
+                        </div>
+                        <div>
+                            <h5>følg avisen</h5>
+                            <a href="">nyhedsbrev</a><br>
+                            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><i
+                                    class="fa-brands fa-facebook-f"></i>Facebook</a><br>
+                            <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a><br>
+                            <a href=""><i class="fa-solid fa-rss"></i>RSS</a><br>
+
+                        </div>
+                    </Article>
+                    <img src="img/download (2).jpg" alt="">
+                    <article>
+                        <div>
+                            <h5>Information hver morgen</h5>
+                            <input type="text">
+                            <button>tilmeld</button>
+                        </div>
+                        <div>
+                            <h5>køb e-avis</h5>
+                            <p>Få et godt tilbud</p>
+                            <p>Abonnement - selvbetjening</p>
+                            <p>Abonnements</p>
+                            <p>Information i løssalg</p>
+                            <a href="">hjælp til information.dk</a>
+                        </div>
+                    </article>
+
+                    <article class="footer_last">
+                        <h5>Om information</h5>
+                        <p>Redaktion</p>
+                        <p>Redaktion</p>
+                        <p>Redaktion</p>
+                        <p>Redaktion</p>
+                        <p>Redaktion</p>
+                        <p>Redaktion</p>
+                        <p>Redaktion</p>
+                    </article>
+
+                </section>
+
+                <hr>
+                <div class="tekst_knap_footer">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nisi dolorum maxime cum.
+                        Molestias,
+                        ipsum!</p>
+                    <button>Skriv til os</button>
+                </div>
+            </div>
     </div>
+    </footer>
 </body>
-
-<footer>
-
-    <div>
-        <section>
-
-            <Article>
-                <h5>Information som E-avis</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt vero rem a sed iste
-                    - amet deserunt dolorum ducimus!</p>
-                <div>
-                    <a href=""><i class="fa-solid fa-desktop"></i>Læs e-avis på din computer</a>
-                    <a href=""><i class="fa-brands fa-apple"></i>Downlode til apple</a>
-                    <a href=""><i class="fa-brands fa-android"></i>Downlode til android</a>
-                </div>
-                <div>
-                    <h5>følg avisen</h5>
-                    <a href="">nyhedsbrev</a>
-                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><i
-                            class="fa-brands fa-facebook-f"></i>Facebook</a>
-                    <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a>
-                    <a href=""><i class="fa-solid fa-rss"></i>RSS</a>
-
-                </div>
-            </Article>
-            <img src="" alt="">
-            <article>
-                <div>
-                    <h5>Information hver morgen</h5>
-                    <input type="text">
-                    <button>tilmeld</button>
-                </div>
-                <div>
-                    <h5>køb e-avis</h5>
-                    <p>Få et godt tilbud</p>
-                    <p>Abonnement - selvbetjening</p>
-                    <p>Abonnements</p>
-                    <p>Information i løssalg</p>
-                    <a href="">hjælp til information.dk</a>
-                </div>
-            </article>
-
-            <article>
-                <h5>Om information</h5>
-                <p>Redaktion</p>
-                <p>Redaktion</p>
-                <p>Redaktion</p>
-                <p>Redaktion</p>
-                <p>Redaktion</p>
-                <p>Redaktion</p>
-                <p>Redaktion</p>
-            </article>
-
-        </section>
-        
-
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nisi dolorum maxime cum. Molestias,
-            ipsum!</p>
-            <button>Skriv til os</button>
-    </div>
-</footer>
 
 </html>
